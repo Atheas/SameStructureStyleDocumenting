@@ -1,8 +1,4 @@
-Oh and btw, it doesn't work for pycache stuff but ill see what i can do tomorrow
-
-
-
-### For the purpose of creating a documentary
+ ### For the purpose of creating a documention
 ...that's structured the same as your codebase heh
 
-Also, yeah 
+Used on Windows (11), but might work for other OS, also using python3.10
