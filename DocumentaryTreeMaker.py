@@ -7,7 +7,6 @@ directory = r""
 
 #list full path to your desired location to place the output
 output_directory = r""
-print(output_directory)
 
 #extension type 
 extension_type = ".md" # use .md for github pages and other services that rely on .md files
