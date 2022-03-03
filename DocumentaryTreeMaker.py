@@ -1,12 +1,11 @@
-from dis import findlinestarts
 import os, collections, pathlib
 from os.path import isfile
 
 #list full path to your workspace
-directory = r""
+directory = r"C:\Users\G\!\Arcadanee\Garca\Das\daseven"
 
 #list full path to your desired location to place the output
-output_directory = r""
+output_directory = r"C:\Users\G\!\Arcadanee\Garca\Docs\hi"
 
 #extension type 
 extension_type = ".md" # use .md for github pages and other services that rely on .md files
@@ -14,7 +13,7 @@ extension_type = ".md" # use .md for github pages and other services that rely o
 ###############################################
 dq = collections.deque([directory])
 stoppable = False
-samename_n = 0
+
 
 def finderskeepers(dqt):
     output_current_directory = os.path.relpath(dqt, directory)
@@ -27,10 +26,9 @@ def finderskeepers(dqt):
             try:
                 open(os.path.join(output_directory, output_current_directory,text_file), "x")
             except FileExistsError:
-                samename_n += 1
-                text_file = x[0] + "(" + str(samename_n) + ")" + extension_type 
+                text_file = x[0] +  "-" + x[1] + extension_type 
                 open(os.path.join(output_directory, output_current_directory, text_file), "x")
-            samename_n = 0
+
 
         elif os.path.isdir(item) and not object.startswith('.'):
             d = os.path.join(output_directory, output_current_directory, object)
