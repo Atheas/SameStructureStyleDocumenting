@@ -2,10 +2,10 @@ import os, collections, pathlib
 from os.path import isfile
 
 #list full path to your workspace
-directory = r"C:\Users\G\!\Arcadanee\Garca\Das\daseven"
+directory = r""
 
 #list full path to your desired location to place the output
-output_directory = r"C:\Users\G\!\Arcadanee\Garca\Docs\hi"
+output_directory = r""
 
 #extension type 
 extension_type = ".md" # use .md for github pages and other services that rely on .md files
