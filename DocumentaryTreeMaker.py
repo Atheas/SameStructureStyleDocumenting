@@ -3,10 +3,10 @@ import os, collections, pathlib
 from os.path import isfile
 
 #list full path to your workspace
-directory = r"C:\Users\G\OneDrive - ekdls\!Programs\Python\Stuff\SameStructureStyleDocumenting\config"
+directory = r""
 
 #list full path to your desired location to place the output
-output_directory = r"C:\Users\G\OneDrive - ekdls\!Programs\Python\Stuff\SameStructureStyleDocumenting\Testing"
+output_directory = r""
 print(output_directory)
 
 #extension type 
